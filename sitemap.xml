@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://zafbat.ma/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zafbat.ma/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://zafbat.ma/ar/"/>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/audit.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zafbat.ma/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://zafbat.ma/ar/audit.html"/>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/budget.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zafbat.ma/budget.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://zafbat.ma/ar/budget.html"/>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/pilotage.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zafbat.ma/pilotage.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://zafbat.ma/ar/pilotage.html"/>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/realisations.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zafbat.ma/realisations.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://zafbat.ma/ar/realisations.html"/>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zafbat.ma/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://zafbat.ma/ar/contact.html"/>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/mentions-legales.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://zafbat.ma/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://zafbat.ma/ar/mentions-legales.html"/>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Blog articles -->
+  <url>
+    <loc>https://zafbat.ma/blog/index.html</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/blog/prix-construction-villa-maroc.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/blog/permis-construire-maroc.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/blog/architecte-maitre-oeuvre-maroc.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/blog/erreurs-budget-villa-maroc.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://zafbat.ma/construction-villa-casablanca-rabat.html</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
