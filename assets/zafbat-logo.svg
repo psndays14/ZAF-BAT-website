@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&amp;display=swap');
+      .logo-text { font-family: 'Cormorant Garamond', 'Georgia', serif; font-weight: 300; font-size: 72px; fill: #141414; letter-spacing: 8px; }
+      .tagline { font-family: 'Jost', sans-serif; font-weight: 300; font-size: 12px; fill: #7A7468; letter-spacing: 4px; text-transform: uppercase; }
+    </style>
+  </defs>
+
+  <!-- ZAF -->
+  <text x="62" y="78" class="logo-text">ZAF</text>
+
+  <!-- Gold diamond separator -->
+  <polygon points="200,55 206,62 200,69 194,62" fill="#D3A357"/>
+
+  <!-- BAT -->
+  <text x="218" y="78" class="logo-text">BAT</text>
+
+  <!-- Gold line -->
+  <line x1="100" y1="92" x2="170" y2="92" stroke="#D3A357" stroke-width="0.8"/>
+  <line x1="230" y1="92" x2="300" y2="92" stroke="#D3A357" stroke-width="0.8"/>
+
+  <!-- Small diamonds on line ends -->
+  <polygon points="96,92 100,88 104,92 100,96" fill="#D3A357" opacity="0.7"/>
+  <polygon points="296,92 300,88 304,92 300,96" fill="#D3A357" opacity="0.7"/>
+
+  <!-- Center diamond on line -->
+  <polygon points="200,89 203,92 200,95 197,92" fill="#D3A357"/>
+
+  <!-- Tagline -->
+  <text x="200" y="110" class="tagline" text-anchor="middle">maîtrise d'ouvrage déléguée</text>
+</svg>
