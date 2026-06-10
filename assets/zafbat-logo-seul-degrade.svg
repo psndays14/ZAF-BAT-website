@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200">
+  <defs>
+    <linearGradient id="zbflow" x1="0" y1="12" x2="0" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f0d890"/>
+      <stop offset="28%" stop-color="#D3A357"/>
+      <stop offset="50%" stop-color="#a8854f"/>
+      <stop offset="76%" stop-color="#4f6238"/>
+      <stop offset="100%" stop-color="#06402B"/>
+    </linearGradient>
+  </defs>
+  <path d="M 41,168 L 41,92 Q 41,33 110,33 Q 179,33 179,92 L 179,168" fill="none" stroke="url(#zbflow)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 110,8 L 119.5,25 Q 110,30.5 100.5,25 Z" fill="url(#zbflow)" stroke="url(#zbflow)" stroke-width="4" stroke-linejoin="round"/>
+</svg>
