@@ -1,0 +1,6 @@
+# robots.txt — ZAF BAT
+User-agent: *
+Allow: /
+Disallow: /assets/team/
+
+Sitemap: https://zafbat.ma/sitemap.xml
