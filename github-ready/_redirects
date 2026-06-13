@@ -1,0 +1,10 @@
+# Legacy test-site URLs -> current pages (path + case continuity). Optional.
+/audit.html         /Audit.html               301
+/budget.html        /Audit.html               301
+/pilotage.html      /Pilotage-Financier.html  301
+/realisations.html  /Realisations.html        301
+/contact.html       /Contact.html             301
+/blog               /                          301
+/blog/*             /                          301
+/ar                 /                          302
+/ar/*               /                          302
