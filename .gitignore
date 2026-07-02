@@ -1,9 +1,0 @@
-# local working files — not for publication
-_backup_pre-growth_20260601_090921/
-_backup_pre-cleanup_20260609/
-screenshots/
-.thumbnail
-*.docx
-*.~lock*
-Thumbs.db
-.DS_Store
