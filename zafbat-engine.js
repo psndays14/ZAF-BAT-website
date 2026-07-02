@@ -224,3 +224,44 @@ section{content-visibility:auto;contain-intrinsic-size:1px 700px}
   if (document.readyState !== 'loading') init();
   else document.addEventListener('DOMContentLoaded', init);
 })();
+
+/* ═══ WhatsApp conversion : messages pré-remplis + tracking GTM ═══ */
+(function () {
+  var MSG = {
+    'index': "Bonjour ZAF BAT, je souhaite construire une villa au Maroc et j'aimerais un premier échange privé.",
+    'diaspora': "Bonjour ZAF BAT, je vis à l'étranger et je souhaite construire au Maroc. J'aimerais un premier échange privé.",
+    'sauvetage': "Bonjour ZAF BAT, j'ai un chantier en difficulté et j'aimerais en parler en toute discrétion.",
+    'audit': "Bonjour ZAF BAT, je souhaite commencer par un audit de mon projet.",
+    'realisations': "Bonjour ZAF BAT, j'ai vu vos réalisations et j'aimerais discuter de mon projet.",
+    'methodologie': "Bonjour ZAF BAT, votre méthode m'intéresse. J'aimerais un premier échange privé.",
+    'pilotage-financier': "Bonjour ZAF BAT, j'aimerais en savoir plus sur le séquestre notarial et le pilotage financier.",
+    'contact': "Bonjour ZAF BAT, je souhaite un premier échange privé au sujet de mon projet.",
+    'ressources': "Bonjour ZAF BAT, j'ai consulté vos guides et j'aimerais discuter de mon projet."
+  };
+  function pageKey() {
+    var p = (location.pathname.split('/').pop() || 'index').toLowerCase().replace(/\.html$/, '');
+    return p || 'index';
+  }
+  function init() {
+    var key = pageKey();
+    var msg = (MSG[key] || MSG['index']) + ' (vu sur zafbat.ma)';
+    var links = document.querySelectorAll('a[href*="wa.me"]');
+    Array.prototype.forEach.call(links, function (a) {
+      try {
+        if (a.href.indexOf('text=') === -1) {
+          a.href += (a.href.indexOf('?') > -1 ? '&' : '?') + 'text=' + encodeURIComponent(msg);
+        }
+      } catch (e) { /* no-op */ }
+      a.addEventListener('click', function () {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'whatsapp_click',
+          wa_page: key,
+          wa_label: (a.getAttribute('aria-label') || a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 60) || 'icon'
+        });
+      });
+    });
+  }
+  if (document.readyState !== 'loading') init();
+  else document.addEventListener('DOMContentLoaded', init);
+})();
